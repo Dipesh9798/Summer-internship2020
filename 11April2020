@@ -1,9 +1,10 @@
+#################################################################
 ##Task1-->for creating directory structure
 ##Solution-->
 mkdir -p A/{B/{D/{I/{M/{Z}},J/{L/{Z}}},E/{H/{L/{Z}}}},C/{F/{H/{L/{Z}}},G/{K/{L/{Z}}}}}
 
 
-
+##########################################################################
 ##Task2-->create an user which will execute only date command
 ##Solution
 chmod -x /usr/bin/date
@@ -12,7 +13,7 @@ setfacl -m u:dip:rwx /usr/bin/date
 su - dip
 
 
-
+############################################################################
 ##Task3--> two user and copying there data without using root
 ##Solution-->
 
